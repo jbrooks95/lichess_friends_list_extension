@@ -1,6 +1,6 @@
 {
     "name": "Lichess Friends List Opener",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Automatically opens the lichess friends list box.",
     "icons": {
         "192": "lichess-favicon-192.png"
