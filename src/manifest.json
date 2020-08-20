@@ -1,0 +1,20 @@
+{
+    "name": "Lichess Friends List Opener",
+    "version": "1.0",
+    "description": "Automatically opens the lichess friends list box.",
+    "icons": {
+        "192": "lichess-favicon-192.png"
+    },
+    "web_accessible_resources" : ["/main.js"],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://lichess.org/*"
+            ],
+            "js": [
+                "inject.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
